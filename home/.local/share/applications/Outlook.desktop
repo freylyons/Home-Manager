@@ -1,0 +1,14 @@
+[Desktop Entry]
+Comment=
+Exec=firefox --new-window 'ext+container:name=Personal&url=https://outlook.live.com/mail/0/'
+Icon=/home/frey/system/icons/outlook.png
+Name=Outlook
+NoDisplay=false
+Path=
+PrefersNonDefaultGPU=false
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Comment=
+Exec=firefox --new-window 'ext+container:name=Personal&url=https://career5.successfactors.eu/careers?company=hampshirecP'
+Name=Hampshire County Council (HCC) Job Portal
+NoDisplay=false
+Path=
+PrefersNonDefaultGPU=false
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

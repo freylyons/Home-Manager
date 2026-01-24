@@ -1,0 +1,14 @@
+[Desktop Entry]
+Comment=
+Exec=firefox --new-window 'ext+container:name=Personal&url=https://www.linkedin.com/in/frey-lyons-297866252/'
+Icon=/home/frey/system/icons/linkedin.png
+Name=LinkedIn
+NoDisplay=false
+Path=
+PrefersNonDefaultGPU=false
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

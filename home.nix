@@ -39,7 +39,10 @@
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
   # plain files is through 'home.file'.
-  home.file = {
+  home.file = 
+  let
+    kde-applications = ".local/share/applications";
+  in {
     # # Building this configuration will create a copy of 'dotfiles/screenrc' in
     # # the Nix store. Activating the configuration will then make '~/.screenrc' a
     # # symlink to the Nix store copy.
@@ -50,8 +53,13 @@
     #   org.gradle.console=verbose
     #   org.gradle.daemon.idletimeout=3600000
     # '';
-    ".local/share/applications/civil_service_job_portal.desktop".source = ./home/.local/share/applications/civil_service_job_portal.desktop;
-  };
+    "${kde-applications}/civil_service_job_portal.desktop".source = ./home/${kde-applications}/civil_service_job_portal.desktop;
+    "${kde-applications}/hcc_job_portal.desktop".source = ./home/${kde-applications}/hcc_job_portal.desktop;
+    "${kde-applications}/job-portal.desktop".source = ./home/${kde-applications}/job-portal.desktop;
+    "${kde-applications}/linkedin.desktop".source = ./home/${kde-applications}/linkedin.desktop;
+    "${kde-applications}/outlook.desktop".source = ./home/${kde-applications}/outlook.desktop;
+    "${kde-applications}/universal-credit-portal.desktop".source = ./home/${kde-applications}/universal-credit-portal.desktop;
+   };
 
   # Home Manager can also manage your environment variables through
   # 'home.sessionVariables'. These will be explicitly sourced when using a

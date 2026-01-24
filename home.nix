@@ -55,24 +55,14 @@
                                       );
     in 
     # kde application launcher entries
-    lib.listToAttrs ( lib.map 
-      (
-        name: let
-          dest-path = ".local/share/applications/${name}";
-        in {
-          name = dest-path;
-          value.source = ./home/${dest-path};
-        }
-      )
-      [
+    mapfunc ".local/share/applications" [
         "civil_service_job_portal.desktop"
         "hcc_job_portal.desktop"
         "job-portal.desktop"
         "linkedin.desktop"
         "outlook.desktop"
         "universal-credit-portal.desktop"
-      ]
-    )
+    ]
     //
     # system icons
     mapfunc "system/icons" [

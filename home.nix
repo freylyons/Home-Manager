@@ -50,7 +50,7 @@
     #   org.gradle.console=verbose
     #   org.gradle.daemon.idletimeout=3600000
     # '';
-    # ".local/share/applications/Civil Service Job Portal.desktop".source = "./home/.local/share/applications/Civil Service Job Portal.desktop";
+    ".local/share/applications/civil_service_job_portal.desktop".source = ./home/.local/share/applications/civil_service_job_portal.desktop;
   };
 
   # Home Manager can also manage your environment variables through

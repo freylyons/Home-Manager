@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ config, pkgs, lib, ... }:
 
 {
   # Home Manager needs a bit of information about you and the paths it should
@@ -39,27 +39,51 @@
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
   # plain files is through 'home.file'.
-  home.file = 
-  let
-    kde-applications = ".local/share/applications";
-  in {
-    # # Building this configuration will create a copy of 'dotfiles/screenrc' in
-    # # the Nix store. Activating the configuration will then make '~/.screenrc' a
-    # # symlink to the Nix store copy.
-    # ".screenrc".source = dotfiles/screenrc;
+  home.file =
+    let
+      mapfunc = dest-path: file-names: lib.listToAttrs ( lib.map 
+                                          (
+                                            name: 
+                                            let
+                                              full-dest-path = "${dest-path}/${name}";
+                                            in 
+                                            {
+                                              name = full-dest-path;
+                                              value.source = ./home/${full-dest-path};
+                                            }
+                                          ) file-names
+                                      );
+    in 
+    # kde application launcher entries
+    lib.listToAttrs ( lib.map 
+      (
+        name: let
+          dest-path = ".local/share/applications/${name}";
+        in {
+          name = dest-path;
+          value.source = ./home/${dest-path};
+        }
+      )
+      [
+        "civil_service_job_portal.desktop"
+        "hcc_job_portal.desktop"
+        "job-portal.desktop"
+        "linkedin.desktop"
+        "outlook.desktop"
+        "universal-credit-portal.desktop"
+      ]
+    )
+    //
+    # system icons
+    mapfunc "system/icons" [
+      "gov.png"
+    ];
 
-    # # You can also set the file content immediately.
-    # ".gradle/gradle.properties".text = ''
-    #   org.gradle.console=verbose
-    #   org.gradle.daemon.idletimeout=3600000
-    # '';
-    "${kde-applications}/civil_service_job_portal.desktop".source = ./home/${kde-applications}/civil_service_job_portal.desktop;
-    "${kde-applications}/hcc_job_portal.desktop".source = ./home/${kde-applications}/hcc_job_portal.desktop;
-    "${kde-applications}/job-portal.desktop".source = ./home/${kde-applications}/job-portal.desktop;
-    "${kde-applications}/linkedin.desktop".source = ./home/${kde-applications}/linkedin.desktop;
-    "${kde-applications}/outlook.desktop".source = ./home/${kde-applications}/outlook.desktop;
-    "${kde-applications}/universal-credit-portal.desktop".source = ./home/${kde-applications}/universal-credit-portal.desktop;
-   };
+    # system icon entries
+
+
+    # "system/icons/*".source = ./home/system/icons/*;
+   
 
   # Home Manager can also manage your environment variables through
   # 'home.sessionVariables'. These will be explicitly sourced when using a

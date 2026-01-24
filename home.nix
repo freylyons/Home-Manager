@@ -1,6 +1,7 @@
 { config, pkgs, lib, ... }:
 
 {
+  imports = [ ./files.nix ];
   # Home Manager needs a bit of information about you and the paths it should
   # manage.
   home.username = "frey";
@@ -39,45 +40,7 @@
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
   # plain files is through 'home.file'.
-  home.file =
-    let
-      mapfunc = dest-path: file-names: lib.listToAttrs ( lib.map 
-                                          (
-                                            name: 
-                                            let
-                                              full-dest-path = "${dest-path}/${name}";
-                                            in 
-                                            {
-                                              name = full-dest-path;
-                                              value.source = ./home/${full-dest-path};
-                                            }
-                                          ) file-names
-                                      );
-    in 
-    # kde application launcher entries
-    mapfunc ".local/share/applications" [
-        "civil_service_job_portal.desktop"
-        "hcc_job_portal.desktop"
-        "job-portal.desktop"
-        "linkedin.desktop"
-        "outlook.desktop"
-        "universal-credit-portal.desktop"
-        "youtube_likes.desktop"
-        "youtube_watch_later.desktop"
-    ]
-    //
-    # system icons
-    mapfunc "system/icons" [
-      "DWP.png"
-      "github.png"
-      "gov.png"
-      "hampshire-county-council.png"
-      "linkedin.png"
-      "outlook.png"
-      "youtube.png"
-    ];
-
-    # system icon entries
+      # system icon entries
 
 
     # "system/icons/*".source = ./home/system/icons/*;

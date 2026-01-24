@@ -66,7 +66,12 @@
     //
     # system icons
     mapfunc "system/icons" [
+      "DWP.png"
+      "github.png"
       "gov.png"
+      "hampshire-county-council.png"
+      "linkedin.png"
+      "outlook.png"
     ];
 
     # system icon entries

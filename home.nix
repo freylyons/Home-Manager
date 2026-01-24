@@ -62,6 +62,8 @@
         "linkedin.desktop"
         "outlook.desktop"
         "universal-credit-portal.desktop"
+        "youtube_likes.desktop"
+        "youtube_watch_later.desktop"
     ]
     //
     # system icons
@@ -72,6 +74,7 @@
       "hampshire-county-council.png"
       "linkedin.png"
       "outlook.png"
+      "youtube.png"
     ];
 
     # system icon entries

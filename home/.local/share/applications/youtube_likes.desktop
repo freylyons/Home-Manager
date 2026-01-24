@@ -1,0 +1,19 @@
+[Desktop Entry]
+Comment[en_GB]=Youtube shortcut avoiding front page / recommended
+Comment=Youtube shortcut avoiding front page / recommended
+Exec=firefox --new-window 'ext+container:name=Personal&url=https://www.youtube.com/playlist?list=LL'
+GenericName[en_GB]=
+GenericName=
+Icon=/home/frey/system/icons/youtube.png
+MimeType=
+Name[en_GB]=Youtube Likes
+Name=Youtube Likes
+NoDisplay=false
+Path=
+PrefersNonDefaultGPU=false
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

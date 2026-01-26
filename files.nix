@@ -25,6 +25,7 @@
           "universal-credit-portal.desktop"
           "youtube_likes.desktop"
           "youtube_watch_later.desktop"
+          "aliexpress_nsfw.desktop"
       ]
       //
       # system icons
@@ -36,6 +37,7 @@
         "linkedin.png"
         "outlook.png"
         "youtube.png"
+        "aliexpress.png"
       ];
 
 }

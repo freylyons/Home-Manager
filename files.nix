@@ -26,6 +26,8 @@
           "youtube_likes.desktop"
           "youtube_watch_later.desktop"
           "aliexpress_nsfw.desktop"
+          "plex.desktop"
+          "github.desktop"
       ]
       //
       # system icons
@@ -38,6 +40,7 @@
         "outlook.png"
         "youtube.png"
         "aliexpress.png"
+        "plex.png"
       ];
 
 }

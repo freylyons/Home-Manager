@@ -36,6 +36,9 @@
     };
   };
 
+  # shell settings
+  programs.bash.enable = true;
+
   programs.joplin-desktop.enable = true;
 
 
@@ -55,8 +58,13 @@
   #
   #  /etc/profiles/per-user/frey/etc/profile.d/hm-session-vars.sh
   #
-  home.sessionVariables = {
-    # EDITOR = "emacs";
+  home.sessionVariables = 
+    let
+      homeDir = config.home.homeDirectory;
+    in {
+    EDITOR = "nvim";
+    lab = "${homeDir}/lab";
+    hmgr = "${homeDir}/.config/home-manager";
   };
 
   # Let Home Manager install and manage itself.

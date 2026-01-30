@@ -32,6 +32,7 @@
           "applications_kitty.desktop"
           "job_portal_kitty.desktop"
           "system_icons_kitty.desktop"
+          "lab_kitty.desktop"
       ]
       //
       # system icons

@@ -1,0 +1,14 @@
+[Desktop Entry]
+Comment=
+Exec=kitty /home/frey/job_portal/
+Icon=kitty
+Name=Job Portal
+NoDisplay=false
+Path=
+PrefersNonDefaultGPU=false
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

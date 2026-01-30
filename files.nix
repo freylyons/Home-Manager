@@ -26,6 +26,10 @@
           "youtube_likes.desktop"
           "youtube_watch_later.desktop"
           "aliexpress_nsfw.desktop"
+          "home_manager_kitty.desktop"
+          "applications_kitty.desktop"
+          "job_portal_kitty.desktop"
+          "system_icons_kitty.desktop"
       ]
       //
       # system icons

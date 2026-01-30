@@ -1,0 +1,14 @@
+[Desktop Entry]
+Comment=
+Exec=firefox --new-window 'ext+container:name=Personal&url=https://github.com/freylyons?tab=repositories'
+Icon=/home/frey/system/icons/github.png
+Name=Github
+NoDisplay=false
+Path=
+PrefersNonDefaultGPU=false
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

@@ -26,6 +26,8 @@
           "youtube_likes.desktop"
           "youtube_watch_later.desktop"
           "aliexpress_nsfw.desktop"
+          "plex.desktop"
+          "github.desktop"
           "home_manager_kitty.desktop"
           "applications_kitty.desktop"
           "job_portal_kitty.desktop"
@@ -42,6 +44,7 @@
         "outlook.png"
         "youtube.png"
         "aliexpress.png"
+        "plex.png"
       ];
 
 }

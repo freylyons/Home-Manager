@@ -40,6 +40,7 @@
   programs.bash.enable = true;
 
   programs.joplin-desktop.enable = true;
+  programs.element-desktop.enable = true;
 
 
   # Home Manager can also manage your environment variables through
@@ -64,7 +65,7 @@
     in {
     EDITOR = "nvim";
     lab = "${homeDir}/lab";
-    hmgr = "${homeDir}/.config/home-manager";
+    home-manager = "${homeDir}/.config/home-manager";
   };
 
   # Let Home Manager install and manage itself.

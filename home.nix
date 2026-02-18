@@ -26,7 +26,15 @@
     xournalpp
     kdePackages.dolphin
     kdePackages.kate
+    steam
   ];
+  
+  # set unfree predicate
+  nixpkgs.config.allowUnfreePredicate = pkg: builtins.elem (lib.getName pkg) [
+    "steam"
+    "steam-unwrapped"
+  ];
+
 
   # git settings
   programs.git = {

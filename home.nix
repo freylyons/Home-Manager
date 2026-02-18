@@ -19,7 +19,13 @@
   # The home.packages option allows you to install Nix packages into your
   # environment.
   home.packages = with pkgs; [
-    hello
+    kitty
+    neovim
+    tree
+    btop
+    xournalpp
+    kdePackages.dolphin
+    kdePackages.kate
   ];
 
   # git settings
@@ -41,6 +47,7 @@
 
   programs.joplin-desktop.enable = true;
   programs.element-desktop.enable = true;
+  programs.firefox.enable = true;
 
 
   # Home Manager can also manage your environment variables through

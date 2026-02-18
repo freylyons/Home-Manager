@@ -28,6 +28,9 @@
     kdePackages.kate
     steam
     discord
+    element-desktop
+    signal-desktop
+    telegram-desktop
   ];
   
   # set unfree predicate

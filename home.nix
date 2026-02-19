@@ -26,7 +26,6 @@
     xournalpp
     kdePackages.dolphin
     kdePackages.kate
-    steam
     discord
     element-desktop
     signal-desktop
@@ -35,8 +34,6 @@
   
   # set unfree predicate
   nixpkgs.config.allowUnfreePredicate = pkg: builtins.elem (lib.getName pkg) [
-    "steam"
-    "steam-unwrapped"
     "discord"
   ];
 

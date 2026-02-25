@@ -30,6 +30,7 @@
     element-desktop
     signal-desktop
     telegram-desktop
+    kdePackages.gwenview
   ];
   
   # set unfree predicate

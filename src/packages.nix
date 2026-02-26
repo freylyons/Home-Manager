@@ -14,6 +14,7 @@
     telegram-desktop
     kdePackages.gwenview
     libreoffice-qt-fresh
+    kdePackages.okular
   ];
   
   # set unfree predicate

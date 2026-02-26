@@ -10,7 +10,7 @@
                                               in 
                                               {
                                                 name = full-dest-path;
-                                                value.source = ./home/${full-dest-path};
+                                                value.source = ../home/${full-dest-path};
                                               }
                                             ) file-names
                                         );

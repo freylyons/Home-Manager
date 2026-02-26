@@ -13,6 +13,7 @@
     signal-desktop
     telegram-desktop
     kdePackages.gwenview
+    libreoffice-qt-fresh
   ];
   
   # set unfree predicate

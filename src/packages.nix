@@ -15,6 +15,7 @@
     kdePackages.gwenview
     libreoffice-qt-fresh
     kdePackages.okular
+    thunderbird
   ];
   
   # set unfree predicate

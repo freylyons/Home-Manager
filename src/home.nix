@@ -17,9 +17,9 @@
       homeDir = config.home.homeDirectory;
     in {
     EDITOR = "nvim";
-    lab = "${homeDir}/lab";
-    home-manager = "${homeDir}/.config/home-manager";
-    job-portal = "${homeDir}/job_portal";
+    LAB = "${homeDir}/lab";
+    HOME_MANAGER = "${homeDir}/.config/home-manager";
+    JOB_PORTAL = "${homeDir}/job_portal";
   };
 
   # Let Home Manager install and manage itself.

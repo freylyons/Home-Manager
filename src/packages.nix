@@ -5,6 +5,7 @@
     neovim
     tree
     btop
+    wireguard-tools
     xournalpp
     kdePackages.dolphin
     kdePackages.kate

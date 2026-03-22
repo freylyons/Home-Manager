@@ -33,6 +33,8 @@
           "job_portal_kitty.desktop"
           "system_icons_kitty.desktop"
           "lab_kitty.desktop"
+          "element_freylyons.desktop"
+          "element_reyf0100.desktop"
       ]
       //
       # system icons

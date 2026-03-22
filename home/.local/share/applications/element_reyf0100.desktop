@@ -1,0 +1,15 @@
+[Desktop Entry]
+Comment=Matrix Client
+GenericName=Matrix Client
+Exec=element-desktop --profile reyf0100
+Icon=element
+Name=Element - reyf0100
+NoDisplay=false
+Path=
+PrefersNonDefaultGPU=false
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

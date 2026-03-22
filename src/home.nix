@@ -19,6 +19,7 @@
     EDITOR = "nvim";
     LAB = "${homeDir}/lab";
     HOME_MANAGER = "/var/configurations/home-manager/";
+    HOST_CONFIG = "/var/configurations/host/";
     JOB_PORTAL = "${homeDir}/job_portal";
   };
 

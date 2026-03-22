@@ -21,6 +21,7 @@
     HOME_MANAGER = "/var/configurations/home-manager/";
     HOST_CONFIG = "/var/configurations/host/";
     JOB_PORTAL = "${homeDir}/job_portal";
+    KDE_APPLICATIONS = "${homeDir}/.local/share/applications";
   };
 
   # Let Home Manager install and manage itself.

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Comment=
 GenericName=Kitty
-Exec=kitty /home/frey/.config/home-manager
+Exec=kitty $HOME_MANAGER
 Icon=kitty
 Name=Home Manager
 NoDisplay=false

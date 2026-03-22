@@ -1,7 +1,7 @@
 [Desktop Entry]
 Comment=
 GenericName=Kitty
-Exec=kitty /home/frey/lab
+Exec=kitty $LAB
 Icon=kitty
 Name=Lab
 NoDisplay=false

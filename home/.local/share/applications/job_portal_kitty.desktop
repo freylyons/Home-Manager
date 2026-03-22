@@ -1,7 +1,7 @@
 [Desktop Entry]
 Comment=
 GenericName=Kitty
-Exec=kitty /home/frey/job_portal/
+Exec=kitty $JOB_PORTAL
 Icon=kitty
 Name=Job Portal
 NoDisplay=false

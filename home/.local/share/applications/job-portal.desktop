@@ -2,7 +2,7 @@
 [Desktop Entry]
 Comment=
 GenericName=Dolphin
-Exec=dolphin job_portal
+Exec=dolphin $JOB_PORTAL
 Icon=org.kde.dolphin
 Name=Job Portal
 NoDisplay=false

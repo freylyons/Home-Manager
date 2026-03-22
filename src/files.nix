@@ -29,6 +29,7 @@
           "plex.desktop"
           "github.desktop"
           "home_manager_kitty.desktop"
+          "host_configuration_kitty.desktop"
           "applications_kitty.desktop"
           "job_portal_kitty.desktop"
           "system_icons_kitty.desktop"

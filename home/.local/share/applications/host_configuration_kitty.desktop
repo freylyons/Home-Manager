@@ -1,9 +1,9 @@
 [Desktop Entry]
 Comment=
 GenericName=Kitty
-Exec=kitty $KDE_APPLICATIONS
+Exec=kitty $HOST_CONFIG
 Icon=kitty
-Name=Applications
+Name=Host Configuration (NixOS)
 NoDisplay=false
 Path=
 PrefersNonDefaultGPU=false

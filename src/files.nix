@@ -46,6 +46,12 @@
         "youtube.png"
         "aliexpress.png"
         "plex.png"
+      ]
+      // 
+      # dolphin places
+      mapfunc ".local/share" [
+        "user-places.xbel"
+        "user-places.xbel.bak"
       ];
 
 }

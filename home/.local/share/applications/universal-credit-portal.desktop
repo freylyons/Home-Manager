@@ -3,7 +3,7 @@ Comment[en_GB]=
 Comment=
 Exec=firefox --new-window 'ext+container:name=Personal&url=https://www.universal-credit.service.gov.uk/dashboard'
 GenericName[en_GB]=
-GenericName=
+GenericName=Firefox
 Icon=/home/frey/system/icons/DWP.png
 MimeType=
 Name[en_GB]=Universal Credit Portal (DWP)

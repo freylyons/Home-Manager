@@ -1,5 +1,6 @@
 [Desktop Entry]
 Comment=
+GenericName=Kitty
 Exec=kitty /home/frey/.local/share/applications
 Icon=kitty
 Name=Applications

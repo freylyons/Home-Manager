@@ -1,5 +1,6 @@
 [Desktop Entry]
 Comment=
+GenericName=Firefox
 Exec=firefox --new-window 'ext+container:name=Personal&url=https://app.plex.tv/desktop/#!/'
 Icon=/home/frey/system/icons/plex.png
 Name=Plex

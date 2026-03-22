@@ -1,6 +1,7 @@
 #!/usr/bin/env xdg-open
 [Desktop Entry]
 Comment=
+GenericName=Dolphin
 Exec=dolphin job_portal
 Icon=org.kde.dolphin
 Name=Job Portal

@@ -3,7 +3,7 @@ Comment[en_GB]=Youtube shortcut avoiding front page / recommended
 Comment=Youtube shortcut avoiding front page / recommended
 Exec=firefox --new-window 'ext+container:name=Personal&url=https://www.youtube.com/playlist?list=LL'
 GenericName[en_GB]=
-GenericName=
+GenericName=Firefox
 Icon=/home/frey/system/icons/youtube.png
 MimeType=
 Name[en_GB]=Youtube Likes

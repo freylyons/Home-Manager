@@ -1,5 +1,6 @@
 [Desktop Entry]
 Comment=
+GenericName=Kitty
 Exec=kitty /home/frey/job_portal/
 Icon=kitty
 Name=Job Portal

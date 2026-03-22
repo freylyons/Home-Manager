@@ -1,5 +1,6 @@
 [Desktop Entry]
 Comment=
+GenericName=Kitty
 Exec=kitty /home/frey/lab
 Icon=kitty
 Name=Lab

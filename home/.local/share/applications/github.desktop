@@ -1,5 +1,6 @@
 [Desktop Entry]
 Comment=
+GenericName=Firefox
 Exec=firefox --new-window 'ext+container:name=Personal&url=https://github.com/freylyons?tab=repositories'
 Icon=/home/frey/system/icons/github.png
 Name=Github

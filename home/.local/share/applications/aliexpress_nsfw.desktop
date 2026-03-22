@@ -1,5 +1,6 @@
 [Desktop Entry]
 Comment=
+GenericName=Firefox
 Exec=firefox --new-window 'ext+container:name=NSFW&url=https://www.aliexpress.com/'
 Icon=/home/frey/system/icons/aliexpress.png
 Name=Ali Express (NFSW)

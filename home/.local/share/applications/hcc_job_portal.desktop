@@ -3,7 +3,7 @@ Comment[en_GB]=
 Comment=
 Exec=firefox --new-window 'ext+container:name=Personal&url=https://career5.successfactors.eu/careers?company=hampshirecP'
 GenericName[en_GB]=
-GenericName=
+GenericName=Firefox
 Icon=/home/frey/system/icons/hampshire-county-council.png
 MimeType=
 Name[en_GB]=Hampshire County Council (HCC) Job Portal

@@ -1,5 +1,6 @@
 [Desktop Entry]
 Comment=
+GenericName=Kitty
 Exec=kitty /home/frey/.config/home-manager
 Icon=kitty
 Name=Home Manager

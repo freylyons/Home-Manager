@@ -1,6 +1,7 @@
 [Desktop Entry]
 Comment[en_GB]=
 Comment=
+GenericName=Firefox
 Exec=firefox --new-window 'ext+container:name=Personal&url=https://cshr.tal.net/vx/lang-en-GB/candidate/application'
 GenericName[en_GB]=
 GenericName=

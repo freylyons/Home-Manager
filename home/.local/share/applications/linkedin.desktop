@@ -1,5 +1,6 @@
 [Desktop Entry]
 Comment=
+GenericName=Firefox
 Exec=firefox --new-window 'ext+container:name=Personal&url=https://www.linkedin.com/in/frey-lyons-297866252/'
 Icon=/home/frey/system/icons/linkedin.png
 Name=LinkedIn

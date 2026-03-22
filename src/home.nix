@@ -18,7 +18,7 @@
     in {
     EDITOR = "nvim";
     LAB = "${homeDir}/lab";
-    HOME_MANAGER = "${homeDir}/.config/home-manager";
+    HOME_MANAGER = "/var/configurations/home-manager/";
     JOB_PORTAL = "${homeDir}/job_portal";
   };
 

@@ -18,12 +18,14 @@
     libreoffice-qt-fresh
     kdePackages.okular
     thunderbird
+    veracrypt
   ];
   
   # set unfree predicate
   nixpkgs.config.allowUnfreePredicate = pkg: builtins.elem (lib.getName pkg) [
     "discord"
     "teamspeak6-client"
+    "veracrypt"
   ];
 
 

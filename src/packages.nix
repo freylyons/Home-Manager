@@ -19,6 +19,7 @@
     kdePackages.okular
     thunderbird
     veracrypt
+    vlc
   ];
   
   # set unfree predicate

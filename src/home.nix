@@ -24,6 +24,7 @@
     KDE_APPLICATIONS = "${homeDir}/.local/share/applications";
   };
 
+
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
 }

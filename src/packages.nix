@@ -45,7 +45,12 @@
   };
 
   # shell settings
-  programs.bash.enable = true;
+  programs.bash = {
+    enable = true;
+    initExtra = ''
+      source ${../home/shell_functions/new-ts-dir.sh}
+    '';
+  };
 
   programs.joplin-desktop.enable = true;
   programs.element-desktop.enable = true;

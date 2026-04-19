@@ -45,10 +45,13 @@
   };
 
   # shell settings
-  programs.bash = {
+  programs.bash = let
+    shell_functions = ../home/shell_functions;
+  in {
     enable = true;
     initExtra = ''
-      source ${../home/shell_functions/new-ts-dir.sh}
+      source ${shell_functions}/new-ts-dir.sh
+      source ${shell_functions}/source-home-manager.sh
     '';
   };
 

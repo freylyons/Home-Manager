@@ -17,11 +17,15 @@
       homeDir = config.home.homeDirectory;
     in {
     EDITOR = "nvim";
-    LAB = "${homeDir}/lab";
     HOME_MANAGER = "/var/configurations/home-manager/";
     HOST_CONFIG = "/var/configurations/host/";
     JOB_PORTAL = "${homeDir}/job_portal";
     KDE_APPLICATIONS = "${homeDir}/.local/share/applications";
+
+    LAB = "${homeDir}/lab";
+    DEV = "${homeDir}/dev";
+    TODO = "${homeDir}/TODO";
+
   };
 
 

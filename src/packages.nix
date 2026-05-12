@@ -20,7 +20,13 @@
     thunderbird
     veracrypt
     vlc
-  ];
+  ]
+  ++
+  (with kdePackages; [
+    # essential kde
+    kscreen
+    kwallet
+  ]);
   
   # set unfree predicate
   nixpkgs.config.allowUnfreePredicate = pkg: builtins.elem (lib.getName pkg) [

@@ -20,6 +20,7 @@
     thunderbird
     veracrypt
     vlc
+    kdePackages.tokodon
   ]
   ++
   (with kdePackages; [

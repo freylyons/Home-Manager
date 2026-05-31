@@ -1,0 +1,14 @@
+[Desktop Entry]
+Comment=Music Streaming Platform
+Exec=firefox --new-window 'ext+container:name=Personal&url=https://soundcloud.com/'
+Icon=/home/frey/system/icons/soundcloud.png
+Name=Soundcloud
+NoDisplay=false
+Path=
+PrefersNonDefaultGPU=false
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

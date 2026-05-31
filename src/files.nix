@@ -36,6 +36,7 @@
           "lab_kitty.desktop"
           "element_freylyons.desktop"
           "element_reyf0100.desktop"
+          "soundcloud.desktop"
       ]
       //
       # system icons
@@ -49,6 +50,7 @@
         "youtube.png"
         "aliexpress.png"
         "plex.png"
+        "soundcloud.png"
       ]
       // 
       # dolphin places

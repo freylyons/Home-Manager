@@ -37,6 +37,7 @@
           "element_freylyons.desktop"
           "element_reyf0100.desktop"
           "soundcloud.desktop"
+	  "ip_a.desktop"
       ]
       //
       # system icons

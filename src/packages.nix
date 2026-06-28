@@ -21,6 +21,8 @@
     veracrypt
     vlc
     kdePackages.tokodon
+    kdePackages.ark
+    krita
   ]
   ++
   (with kdePackages; [

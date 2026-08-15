@@ -23,6 +23,7 @@
     kdePackages.tokodon
     kdePackages.ark
     krita
+    gnucash
   ]
   ++
   (with kdePackages; [

@@ -70,3 +70,23 @@ new-ts-file() {
     "${EDITOR:-vi}" "$path"
   fi
 }
+
+cd-last() {
+  local local_lag="1"
+
+  if [[ $# -gt 1 ]]; then
+    printf "Too many arguments supplied" >&2
+  fi
+
+  if [[ $# -gt 0 ]]; then
+    if [[ "$1" =~ ^[0-9]+$ ]]; then
+      local_lag="$1"
+    else
+      printf "malformed input: expected integer, got $1" >&2
+      return 1
+    fi
+  fi
+
+  cd "$(ls | tail -n "$local_lag" | head -n 1)"
+  return 0
+}

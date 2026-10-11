@@ -44,6 +44,7 @@
           "files_kitty.desktop"
           "media_kitty.desktop"
           "notes_kitty.desktop"
+	  "e621.desktop"
       ]
       //
       # system icons
@@ -58,6 +59,7 @@
         "aliexpress.png"
         "plex.png"
         "soundcloud.png"
+	"E621_logo.svg.webp"
       ]
       // 
       # dolphin places

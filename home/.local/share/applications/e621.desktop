@@ -1,7 +1,7 @@
 [Desktop Entry]
 Comment=
 Exec=firefox --new-window 'ext+container:name=NSFW&url=https://e621.net/'
-Icon=/home/frey/downloads/E621_logo.svg.webp
+Icon=/home/frey/system/icons/E621_logo.svg.webp
 Name=e621
 NoDisplay=false
 Path=

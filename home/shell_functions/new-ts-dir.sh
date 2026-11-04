@@ -87,6 +87,6 @@ cd-last() {
     fi
   fi
 
-  cd "$(ls | tail -n "$local_lag" | head -n 1)"
+  cd "$(ls -1 | grep -E ^[0-9]{4}- | tail -n "$local_lag" | head -n 1)"
   return 0
 }

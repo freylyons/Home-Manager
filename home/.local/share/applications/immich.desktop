@@ -1,0 +1,15 @@
+[Desktop Entry]
+Comment=
+GenericName=Firefox
+Exec=firefox --new-window 'ext+container:name=Personal&url=http://10.12.0.1:2283/photos'
+Icon=/home/frey/system/icons/immich.png
+Name=Immich
+NoDisplay=false
+Path=
+PrefersNonDefaultGPU=false
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

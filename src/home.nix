@@ -26,6 +26,7 @@
     HOME = "";
     LAB = "lab";
     DEV = "dev";
+    BIN = "bin";
     TODO = "TODO";
     NOTES = "notes";
     MEETINGS = "meetings";

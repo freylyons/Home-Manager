@@ -46,6 +46,7 @@
           "notes_kitty.desktop"
           "e621.desktop"
           "immich.desktop"
+          "fetlife.desktop"
       ]
       //
       # system icons
@@ -62,6 +63,7 @@
         "soundcloud.png"
         "E621_logo.svg.webp"
         "immich.png"
+        "fetlife_logo.png"
       ]
       // 
       # dolphin places

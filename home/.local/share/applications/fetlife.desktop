@@ -1,0 +1,14 @@
+[Desktop Entry]
+Comment=
+Exec=firefox --new-window 'ext+container:name=NSFW&url=https://fetlife.com/'
+Icon=/home/frey/system/icons/fetlife_logo.png
+Name=Fetlife
+NoDisplay=false
+Path=
+PrefersNonDefaultGPU=false
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=
